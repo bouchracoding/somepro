@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.card{
+    background-color: aqua;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    margin-top: 120px;
+}
+   .card-image{
+ background-color: hotpink;
+ height: 170px;
+ margin-bottom: 15px;
+ background-size: cover;
+ border-radius: 20px;
+    
+}
+.im-1{
+    background-image: url('./images/fla.jpg');
+}.im-2{
+    background-image: url('./images/ro.jpg');
+}
+.im-3{
+    background-image: url('./images/j.jpg');
+}
+.card h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}.card p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    
+    
+}
+a{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:rgb(245, 124, 142);
+    padding: 6px 12px;
+    margin-left: 80px;
+    line-height: 50px;
+    
+}
+a:hover{
+    background-color:yellow;
+    color:aqua;
+}

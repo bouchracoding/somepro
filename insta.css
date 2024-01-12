@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+min-height: 100vh;
+width: 100%;
+background-color: rgb(249, 249, 249);
+display: flex;
+font-family: 'roboto','Arial','Helvetica','sans-serif';
+}
+nav{
+    flex: 0 0 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+
+}
+main{
+    flex:1;
+}
+.logo{
+    height: 100px;
+}
+.logo img{
+    width: 160px; 
+}
+.nav-links{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.nav-links img{
+    height: 24px;
+    border-radius: 15px;
+}
+.nav-links .row{
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-links .row:hover{
+ background-color: rgb(245, 245, 245);   
+}
+.nav-links .row a{
+ padding: 10px  20px; 
+ flex: 1;
+ color: rgb(20,20,20);
+ text-decoration: none;
+ direction: flex;
+ align-items: center;
+ transition: 0.4s;
+}
+.nav-links .row a:hover{
+    color: blue;
+}
+.nav-links .row i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.nav-links .row img{
+margin-right: 10px;
+}
+.nav-links .row:last-child{
+    margin-top: auto;
+}
